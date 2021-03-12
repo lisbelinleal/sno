@@ -1,0 +1,304 @@
+header {
+    max-width: 130rem;
+    margin:auto;
+}
+
+img {
+    max-width: 120%; /** Hace que las imagenes sean responsivas, las adapta al contenedor **/
+}
+
+
+.inicio-header {
+    text-align: center; /* Para centrar los iconos y texto */
+    width:1300px;
+    margin:auto;
+}
+
+.navegacion {
+    text-align: center; /* Para centrar los iconos y texto */
+    width:1300px;
+    margin:auto;
+    margin-bottom: -80px;
+}
+
+.navegacion a:hover {
+    color: #b81e2f;
+}
+
+.navegacion a {
+    font-family: 'Franklin Gothic Heavy', arial;
+    display:inline-block;
+    font-size: 26px;
+    text-shadow: 1px 1px 1px #aaa;
+    justify-content: space-between;
+    text-align: center;
+    color:black; /* el rgba usa transparencia y el hsla tambien */
+    text-decoration:none;
+    position: relative; top: -65px;
+}
+
+.carrito img {
+    width: 5%;
+    height: 5%;
+    position: relative; left: 895px; right: -600px; bottom: 27px;
+}
+
+.pago-invitado img {
+    width: 5%;
+    height: 5%;
+    position: relative; left: 345px; right: -345px; bottom: 27px;
+}
+
+.promocion1 {
+    width:1300px;
+    margin:auto;
+    margin-bottom: -40px;
+}
+
+.promocion1 section {
+    background-image: url(img/1.jpg); /* para agregar la imagen de fondo */
+    background-position: center center; /* Para mostrar la imagen desde el centro */
+    align-items: center;
+    background-size: cover; /* Para que tome el alto y ancho disponible, pero guardando las proporciones*/
+    margin: 0 auto;
+    max-width: 1300rem; /* = 1200px */ /*toma todo el espacio disponible siempre y no se pase de 1200px*/
+    height: 100vh;
+}
+
+.promocion1 a {
+    font-family: arial;
+}
+
+.texto-promociones {
+    width: 1300px;
+    margin: 0 auto;
+    color: black;
+    position: relative; left: 995px; right: -1000px; bottom: 200px;
+    text-decoration: none;
+    font-size: 30px;
+    display: grid;
+}
+
+.articulos {
+    width:1300px;
+    margin:auto;
+    margin-bottom: -5px;
+}
+
+.articulos section {
+    background-image: url(img/2.jpg); /* para agregar la imagen de fondo */
+    background-position: center center; /* Para mostrar la imagen desde el centro */
+    align-items: center;
+    background-size: cover; /* Para que tome el alto y ancho disponible, pero guardando las proporciones*/
+    margin: 0 auto;
+    max-width: 1300rem; /* = 1200px */ /*toma todo el espacio disponible siempre y no se pase de 1200px*/
+    height: 100vh;
+}
+
+.favoritosclientes {
+    width:1300px;
+    margin:auto;
+    margin-bottom: -5px;
+}
+
+.favoritosclientes section {
+    background-image: url(img/3.jpg); /* para agregar la imagen de fondo */
+    background-position: center center; /* Para mostrar la imagen desde el centro */
+    align-items: center;
+    background-size: cover; /* Para que tome el alto y ancho disponible, pero guardando las proporciones*/
+    margin: 0 auto;
+    max-width: 1300rem; /* = 1200px */ /*toma todo el espacio disponible siempre y no se pase de 1200px*/
+    height: 100vh;
+}
+
+.registro {
+    width:1300px;
+    margin:auto;
+    margin-bottom: -40px;
+}
+
+.registro section {
+    background-image: url(img/3.jpg); /* para agregar la imagen de fondo */
+    background-position: center center; /* Para mostrar la imagen desde el centro */
+    align-items: center;
+    background-size: cover; /* Para que tome el alto y ancho disponible, pero guardando las proporciones*/
+    margin: 0 auto;
+    max-width: 1300rem; /* = 1200px */ /*toma todo el espacio disponible siempre y no se pase de 1200px*/
+    height: 100vh;
+}
+
+.texto-registrar {
+    font-family: arial;
+    width: 1300px;
+    margin: 0 auto;
+    color: black;
+    position: relative; right: -580px; bottom: 110px; left: 570px;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.piepagina {
+    width:1300px;
+    margin:auto;
+}
+
+.piepagina footer {
+    background-image: url(img/footer.jpg); /* para agregar la imagen de fondo */
+    background-position: center center; /* Para mostrar la imagen desde el centro */
+    align-items: center;
+    background-size: cover; /* Para que tome el alto y ancho disponible, pero guardando las proporciones*/
+    margin: 0 auto;
+    max-width: 1300rem; /* = 1200px */ /*toma todo el espacio disponible siempre y no se pase de 1200px*/
+    height: 100vh;
+}
+
+/* Pagina promociones */
+
+.imagen-promociones {
+    width:1300px;
+    margin:auto;
+    margin-bottom: -5px;
+}
+
+.imagen-promociones2 {
+    width:1300px;
+    margin:auto;
+    margin-bottom: -40px;
+}
+
+/* Pagina quienes-somos */
+
+.imagen-quienesomos {
+    width:1300px;
+    margin:auto;
+    margin-bottom: -5px;
+}
+
+.imagen-quienesomos img {
+    background-image: url(img/QUIENES-SOMOS_03.jpg); /* para agregar la imagen de fondo */
+    background-position: center; /* Para mostrar la imagen desde el centro */
+    align-items: center;
+    background-size: cover; /* Para que tome el alto y ancho disponible, pero guardando las proporciones*/
+    margin: 0 auto;
+    width: 100%; /* = 1200px */ /*toma todo el espacio disponible siempre y no se pase de 1200px*/
+    height: 100vh;
+}
+
+
+.imagen-quienesomos2 {
+    width:1300px;
+    margin:auto;
+}
+
+.imagen-quienesomos2 img {
+    background-image: url(img/QUIENES-SOMOS_04.jpg); /* para agregar la imagen de fondo */
+    background-position: center; /* Para mostrar la imagen desde el centro */
+    align-items: center;
+    background-size: cover; /* Para que tome el alto y ancho disponible, pero guardando las proporciones*/
+    margin: 0 auto;
+    width: 100%; /* = 1200px */ /*toma todo el espacio disponible siempre y no se pase de 1200px*/
+}
+
+/* Pagina franquicia */
+
+.imagen-franquicia1 {
+    max-width:1300px;
+    margin:auto;
+    margin-bottom: -5px;
+}
+
+.imagen-franquicia1 img {
+    background-image: url(img/FRANQUICIA_02.jpg); /* para agregar la imagen de fondo */
+    background-position: center; /* Para mostrar la imagen desde el centro */
+    align-items: center;
+    background-size: cover; /* Para que tome el alto y ancho disponible, pero guardando las proporciones*/
+    margin: 0 auto;
+    width: 100%; /* = 1200px */ /*toma todo el espacio disponible siempre y no se pase de 1200px*/
+    height: 100vh;
+}
+
+.imagen-franquicia2 {
+    max-width:1300px;
+    max-height: 500px;
+    margin:auto;
+}
+
+.imagen-franquicia2 img {
+    background-image: url(img/FRANQUICIA3.jpg); /* para agregar la imagen de fondo */
+    background-position: center; /* Para mostrar la imagen desde el centro */
+    align-items: center;
+    background-size: cover; /* Para que tome el alto y ancho disponible, pero guardando las proporciones*/
+    margin: 0 auto;
+    width: 100%; /* = 1200px */ /*toma todo el espacio disponible siempre y no se pase de 1200px*/
+    height: 80%;
+}
+
+/* Pagina contacto  */
+
+.registro-pagina img {
+    margin-top: 420px;
+}
+
+.nuestrocontacto {
+    width:1300px;
+    margin:auto;
+    margin-bottom: -5px;
+}
+
+.nuestrocontacto img {
+    background-image: url(img/contacto1.jpg); /* para agregar la imagen de fondo */
+    background-position: center; /* Para mostrar la imagen desde el centro */
+    align-items: center;
+    background-size: cover; /* Para que tome el alto y ancho disponible, pero guardando las proporciones*/
+    margin: 0 auto;
+    width: 100%; /* = 1200px */ /*toma todo el espacio disponible siempre y no se pase de 1200px*/
+    height: 100%;
+}
+
+.formulario-contacto {
+    width:1300px;
+    margin:auto;
+}
+
+.formulario-contacto img {
+    background-image: url(img/contacto1.jpg); /* para agregar la imagen de fondo */
+    background-position: center; /* Para mostrar la imagen desde el centro */
+    align-items: center;
+    background-size: cover; /* Para que tome el alto y ancho disponible, pero guardando las proporciones*/
+    margin: 0 auto;
+    width: 100%; /* = 1200px */ /*toma todo el espacio disponible siempre y no se pase de 1200px*/
+    height: 100%;
+}
+
+/* Pagina productos */ 
+
+.producto1 {
+    width:1300px;
+    margin:auto;
+    margin-bottom: -5px;
+}
+
+.producto1 img {
+    background-image: url(img/producto1.jpg); /* para agregar la imagen de fondo */
+    background-position: center; /* Para mostrar la imagen desde el centro */
+    align-items: center;
+    background-size: cover; /* Para que tome el alto y ancho disponible, pero guardando las proporciones*/
+    margin: 0 auto;
+    width: 100%; /* = 1200px */ /*toma todo el espacio disponible siempre y no se pase de 1200px*/
+    height: 100%;
+}
+
+.producto2 {
+    width:1300px;
+    margin:auto;
+}
+
+.producto2 img {
+    background-image: url(img/producto2.jpg); /* para agregar la imagen de fondo */
+    background-position: center; /* Para mostrar la imagen desde el centro */
+    align-items: center;
+    background-size: cover; /* Para que tome el alto y ancho disponible, pero guardando las proporciones*/
+    margin: 0 auto;
+    width: 100%; /* = 1200px */ /*toma todo el espacio disponible siempre y no se pase de 1200px*/
+    height: 100%;
+}
