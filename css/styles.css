@@ -154,9 +154,6 @@ img {
 
 /* Pagina promociones */
 
-.inicio-header-registro {
-    margin-bottom: 20px;
-}
 .imagen-promociones {
     width:1300px;
     margin:auto;
@@ -171,10 +168,6 @@ img {
 
 /* Pagina quienes-somos */
 
-.inicio-header-quienesomos {
-    margin-bottom: 20px;
-}
-
 .imagen-quienesomos {
     width:1300px;
     margin:auto;
@@ -188,7 +181,7 @@ img {
     background-size: cover; /* Para que tome el alto y ancho disponible, pero guardando las proporciones*/
     margin: 0 auto;
     width: 100%; /* = 1200px */ /*toma todo el espacio disponible siempre y no se pase de 1200px*/
-    height: 100vh;
+    height: 100%;
 }
 
 
@@ -208,10 +201,6 @@ img {
 
 /* Pagina franquicia */
 
-.inicio-header-franquicia {
-    margin-bottom: 20px;
-}
-
 .imagen-franquicia1 {
     max-width:1300px;
     margin:auto;
@@ -225,7 +214,7 @@ img {
     background-size: cover; /* Para que tome el alto y ancho disponible, pero guardando las proporciones*/
     margin: 0 auto;
     width: 100%; /* = 1200px */ /*toma todo el espacio disponible siempre y no se pase de 1200px*/
-    height: 100vh;
+    height: 90%;
 }
 
 .imagen-franquicia2 {
@@ -245,10 +234,6 @@ img {
 }
 
 /* Pagina contacto  */
-
-.inicio-header-contacto {
-    margin-bottom: 20px;
-}
 
 .registro-pagina img {
     margin-top: 420px;
