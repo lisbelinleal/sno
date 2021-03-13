@@ -204,6 +204,10 @@ img {
 
 /* Pagina franquicia */
 
+.inicio-header-franquicia {
+    margin-bottom: 20px;
+}
+
 .imagen-franquicia1 {
     max-width:1300px;
     margin:auto;
