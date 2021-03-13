@@ -313,3 +313,20 @@ img {
 .sesion2-imagen img {
     margin-left: 25px;
 }
+
+/* Pagina registro */ 
+
+.imagen-registro {
+    width:1300px;
+    margin:auto;
+}
+
+.imagen-registro img {
+    background-image: url(img/Registro.jpg); /* para agregar la imagen de fondo */
+    background-position: center center; /* Para mostrar la imagen desde el centro */
+    align-items: center;
+    background-size: cover; /* Para que tome el alto y ancho disponible, pero guardando las proporciones*/
+    margin: 0 auto;
+    width: 100%; /* = 1200px */ /*toma todo el espacio disponible siempre y no se pase de 1200px*/
+    height: 100%;
+}
