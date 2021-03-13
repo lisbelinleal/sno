@@ -242,6 +242,10 @@ img {
 
 /* Pagina contacto  */
 
+.inicio-header-contacto {
+    margin-bottom: 20px;
+}
+
 .registro-pagina img {
     margin-top: 420px;
 }
