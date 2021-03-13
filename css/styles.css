@@ -49,10 +49,16 @@ img {
     position: relative; left: 345px; right: -345px; bottom: 27px;
 }
 
+.boton-iniciarsesion img {
+    width: 5%;
+    height: 5%;
+    position: relative; bottom: 64px; left: 565px;
+}                                                                                                                                         
+
 .promocion1 {
     width:1300px;
     margin:auto;
-    margin-bottom: -40px;
+  
 }
 
 .promocion1 section {
@@ -63,6 +69,10 @@ img {
     margin: 0 auto;
     max-width: 1300rem; /* = 1200px */ /*toma todo el espacio disponible siempre y no se pase de 1200px*/
     height: 100vh;
+}
+
+.promocion1 img {
+    margin-top: -45px;
 }
 
 .promocion1 a {
@@ -323,6 +333,79 @@ img {
 
 .imagen-registro img {
     background-image: url(img/Registro.jpg); /* para agregar la imagen de fondo */
+    background-position: center center; /* Para mostrar la imagen desde el centro */
+    align-items: center;
+    background-size: cover; /* Para que tome el alto y ancho disponible, pero guardando las proporciones*/
+    margin: 0 auto;
+    width: 100%; /* = 1200px */ /*toma todo el espacio disponible siempre y no se pase de 1200px*/
+    height: 100%;
+}
+
+/* Pagina pago-invitado */ 
+
+.imagen-pago-invitado {
+    width:1300px;
+    margin:auto;
+}
+
+.imagen-pago-invitado img {
+    background-image: url(img/pago-invitado.jpg); /* para agregar la imagen de fondo */
+    background-position: center center; /* Para mostrar la imagen desde el centro */
+    align-items: center;
+    background-size: cover; /* Para que tome el alto y ancho disponible, pero guardando las proporciones*/
+    margin: 0 auto;
+    width: 100%; /* = 1200px */ /*toma todo el espacio disponible siempre y no se pase de 1200px*/
+    height: 100%;
+}
+
+.boton-invitado-continuar {
+    position: relative;
+    text-decoration: none;
+    color: black;
+    font-family: arial;
+    font-size: 30px;
+    right: -912px;
+    bottom: 182px;
+}
+
+/* Pagina pago (carrito) */
+
+.imagen-pago-carrito {
+    width:1300px;
+    margin:auto;
+}
+
+.imagen-pago-carrito img {
+    background-image: url(img/pago-carrito.jpg); /* para agregar la imagen de fondo */
+    background-position: center center; /* Para mostrar la imagen desde el centro */
+    align-items: center;
+    background-size: cover; /* Para que tome el alto y ancho disponible, pero guardando las proporciones*/
+    margin: 0 auto;
+    width: 100%; /* = 1200px */ /*toma todo el espacio disponible siempre y no se pase de 1200px*/
+    height: 100%;
+}
+
+.boton-pago-invitado {
+    position: relative;
+    text-decoration: none;
+    color: black;
+    font-family: arial;
+    font-size: 30px;
+    right: -1050px;
+    bottom: 553px;
+    left: 1037px;
+
+}
+
+/* Pagina pedidos */
+
+.imagen-pedidofinal {
+    width:1300px;
+    margin:auto;
+}
+
+.imagen-pedidofinal img {
+    background-image: url(img/pedidofinal.jpg); /* para agregar la imagen de fondo */
     background-position: center center; /* Para mostrar la imagen desde el centro */
     align-items: center;
     background-size: cover; /* Para que tome el alto y ancho disponible, pero guardando las proporciones*/
