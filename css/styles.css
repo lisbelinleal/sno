@@ -154,6 +154,9 @@ img {
 
 /* Pagina promociones */
 
+.inicio-header-registro {
+    margin-bottom: 20px;
+}
 .imagen-promociones {
     width:1300px;
     margin:auto;
