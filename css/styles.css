@@ -316,12 +316,33 @@ img {
 /* Pagina inicio sesion (logging) */ 
 
 .sesion1-imagen img {
-    margin-left: 25px;
-    margin-bottom: -5px;
+    margin-left: 70px;
+    margin-bottom: -45px;
 }
 
 .sesion2-imagen img {
-    margin-left: 25px;
+    margin-left: 70px;
+}
+
+.boton-registraqui {
+    position: relative;
+    text-decoration: none;
+    color: black;
+    font-family: 'Franklin Gothic Heavy';
+    font-size: 30px;
+    left: 486px;
+    right: -912px;
+    top:-296px;
+}
+
+.boton-nocuenta {
+    position: relative;
+    text-decoration: none;
+    color: black;
+    font-family: arial;
+    font-size: 30px;
+    left: 477px;
+    top: -296px;
 }
 
 /* Pagina registro */ 
