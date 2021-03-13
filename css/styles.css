@@ -302,3 +302,14 @@ img {
     width: 100%; /* = 1200px */ /*toma todo el espacio disponible siempre y no se pase de 1200px*/
     height: 100%;
 }
+
+/* Pagina inicio sesion (logging) */ 
+
+.sesion1-imagen img {
+    margin-left: 25px;
+    margin-bottom: -5px;
+}
+
+.sesion2-imagen img {
+    margin-left: 25px;
+}
