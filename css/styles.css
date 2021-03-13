@@ -171,6 +171,10 @@ img {
 
 /* Pagina quienes-somos */
 
+.inicio-header-quienesomos {
+    margin-bottom: 20px;
+}
+
 .imagen-quienesomos {
     width:1300px;
     margin:auto;
@@ -282,10 +286,6 @@ img {
 }
 
 /* Pagina productos */ 
-
-.inicio-header-productos {
-    margin-bottom: 20px;
-}
 
 .producto1 {
     width:1300px;
