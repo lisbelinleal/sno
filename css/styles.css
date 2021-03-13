@@ -279,6 +279,10 @@ img {
 
 /* Pagina productos */ 
 
+.inicio-header-productos {
+    margin-bottom: 20px;
+}
+
 .producto1 {
     width:1300px;
     margin:auto;
