@@ -58,7 +58,6 @@ img {
 .promocion1 {
     width:1300px;
     margin:auto;
-  
 }
 
 .promocion1 section {
@@ -170,6 +169,10 @@ img {
     margin-bottom: -5px;
 }
 
+.imagen-promociones img {
+	margin-top: -45px;
+}
+
 .imagen-promociones2 {
     width:1300px;
     margin:auto;
@@ -192,6 +195,7 @@ img {
     margin: 0 auto;
     width: 100%; /* = 1200px */ /*toma todo el espacio disponible siempre y no se pase de 1200px*/
     height: 100%;
+    margin-top: -45px;
 }
 
 
@@ -225,6 +229,7 @@ img {
     margin: 0 auto;
     width: 100%; /* = 1200px */ /*toma todo el espacio disponible siempre y no se pase de 1200px*/
     height: 90%;
+    margin-top: -45px;
 }
 
 .imagen-franquicia2 {
@@ -263,6 +268,7 @@ img {
     margin: 0 auto;
     width: 100%; /* = 1200px */ /*toma todo el espacio disponible siempre y no se pase de 1200px*/
     height: 100%;
+    margin-top: -45px;
 }
 
 .formulario-contacto {
@@ -296,6 +302,7 @@ img {
     margin: 0 auto;
     width: 100%; /* = 1200px */ /*toma todo el espacio disponible siempre y no se pase de 1200px*/
     height: 100%;
+    margin-top: -45px;
 }
 
 .producto2 {
@@ -315,13 +322,27 @@ img {
 
 /* Pagina inicio sesion (logging) */ 
 
+.sesion1-imagen {
+	width:1300px;
+    margin:auto;
+}
+
+.sesion1-imagen a {
+	margin-left: -20px;
+}
+
 .sesion1-imagen img {
-    margin-left: 70px;
+    margin-left: 25px;
     margin-bottom: -45px;
 }
 
+.sesion2-imagen {
+	width:1300px;
+    margin:auto;
+}
+
 .sesion2-imagen img {
-    margin-left: 70px;
+    margin-left: 25px;
 }
 
 .boton-registraqui {
@@ -330,7 +351,7 @@ img {
     color: black;
     font-family: 'Franklin Gothic Heavy';
     font-size: 30px;
-    left: 486px;
+    left: 500px;
     right: -912px;
     top:-296px;
 }
@@ -360,6 +381,7 @@ img {
     margin: 0 auto;
     width: 100%; /* = 1200px */ /*toma todo el espacio disponible siempre y no se pase de 1200px*/
     height: 100%;
+    margin-top: -45px;
 }
 
 /* Pagina pago-invitado */ 
@@ -377,6 +399,7 @@ img {
     margin: 0 auto;
     width: 100%; /* = 1200px */ /*toma todo el espacio disponible siempre y no se pase de 1200px*/
     height: 100%;
+    margin-top: -45px;
 }
 
 .boton-invitado-continuar {
@@ -404,6 +427,7 @@ img {
     margin: 0 auto;
     width: 100%; /* = 1200px */ /*toma todo el espacio disponible siempre y no se pase de 1200px*/
     height: 100%;
+    margin-top: -45px;
 }
 
 .boton-pago-invitado {
@@ -433,4 +457,5 @@ img {
     margin: 0 auto;
     width: 100%; /* = 1200px */ /*toma todo el espacio disponible siempre y no se pase de 1200px*/
     height: 100%;
+    margin-top: -45px;
 }
